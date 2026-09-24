@@ -1,0 +1,32 @@
+str.length();
+str.charAt(0);
+str.equals("Hello");
+str.equalsIgnoreCase("hello");
+str.substring(1, 4);
+str.indexOf('a');
+str.lastIndexOf('a');
+str.contains("Java");
+str.startsWith("J");
+str.endsWith("a");
+str.toUpperCase();
+str.toLowerCase();
+str.trim();
+str.strip();
+str.replace('a', 'b');
+str.replaceAll("\\d", "");
+str.split(" ");
+str.isEmpty();
+str.isBlank();
+str.concat("World");
+str.toCharArray();
+
+Advance Methods
+==================
+
+str.lines();
+str.repeat(3);
+str.stripLeading();
+str.stripTrailing();
+str.indent(4);
+str.transform(...);
+str.formatted(...);
