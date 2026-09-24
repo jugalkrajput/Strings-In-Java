@@ -2,7 +2,7 @@ Java Strings & String Methods
 ==============================
 
 1. What is a String?
----------------------
+   ==================
 A String is a sequence of characters used to store text in Java.
 
 In Java, String is a class and Strings are immutable, meaning once a String object is created, its value cannot be changed.
@@ -10,7 +10,7 @@ In Java, String is a class and Strings are immutable, meaning once a String obje
 String name = "Java";
 
 2. Creating Strings
---------------------
+   =================
 Using String Literal
 String str = "Hello";
 
@@ -24,7 +24,7 @@ String str = new String("Hello");
 This explicitly creates a new String object.
 
 3. String Immutability
--------------------------
+   =====================
 Strings cannot be modified after creation.
 
 String s = "Hello";
@@ -51,7 +51,7 @@ Output:
 Hello World
 
 4. Important String Methods
-----------------------------
+   =========================
 length()
 --------
 Returns the number of characters in a String.
@@ -462,7 +462,7 @@ Output:
 true
 
 5. String Pool
----------------
+   ============
 Java maintains a special area called the String Pool for String literals.
 
 String a = "Java";
@@ -494,7 +494,8 @@ false
 Because two different objects are created.
 
 6. String Concatenation
-------------------------
+   ======================
+
 Using +
 --------
 String firstName = "John";
@@ -510,7 +511,8 @@ String fullName = firstName.concat(" ").concat(lastName);
 For repeated modifications, prefer StringBuilder instead of repeatedly concatenating Strings.
 
 7. String vs StringBuilder vs StringBuffer
--------------------------------------------
+   ========================================
+
 Feature				|	String		|	StringBuilder		|	StringBuffer
 --------------------------------|-----------------------|-------------------------------|--------------------------------------
 Mutable				|	❌ No		|	✅ Yes			|	✅ Yes
@@ -534,7 +536,7 @@ Output:
 Hello Java!
 
 8. Important Methods — Quick Revision
------------------------------------------
+   ===================================
 
 Method		|	Purpose
 ----------------|-------------------------------------
@@ -567,7 +569,7 @@ intern()	|	Returns pooled String
 
 
 9. Common Interview Points
----------------------------
+   ========================
 1. Why are Strings immutable?
 -------------------------------
 
@@ -615,9 +617,9 @@ Output:
 Hello World
 
 10. One-Line Cheat Sheet
--------------------------
+    =====================
 
-
+Method		|	Do/Purpose
 ----------------|-------------------------------
 length()        |  → String length
 charAt()        |  → character at index
