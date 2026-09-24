@@ -616,6 +616,8 @@ Hello World
 
 10. One-Line Cheat Sheet
 -------------------------
+
+
 ----------------|-------------------------------
 length()        |  → String length
 charAt()        |  → character at index
